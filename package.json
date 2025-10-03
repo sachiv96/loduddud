@@ -1,0 +1,19 @@
+{
+  "name": "missing-person-matching-system",
+  "version": "1.0.0",
+  "description": "Self-hosted missing person matching platform with face recognition",
+  "scripts": {
+    "setup": "cd backend && npm install && node database/setup.js && cd ../frontend && npm install",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "echo 'Run backend and frontend in separate terminals: npm run backend | npm run frontend'"
+  },
+  "keywords": [
+    "missing-person",
+    "face-recognition",
+    "localhost",
+    "self-hosted"
+  ],
+  "author": "",
+  "license": "MIT"
+}
