@@ -6,7 +6,8 @@
     "setup": "cd backend && npm install && node database/setup.js && cd ../frontend && npm install",
     "backend": "cd backend && npm start",
     "frontend": "cd frontend && npm run dev",
-    "dev": "echo 'Run backend and frontend in separate terminals: npm run backend | npm run frontend'"
+    "dev": "echo 'Run backend and frontend in separate terminals: npm run backend | npm run frontend'",
+    "build": "cd frontend && npm run build"
   },
   "keywords": [
     "missing-person",
